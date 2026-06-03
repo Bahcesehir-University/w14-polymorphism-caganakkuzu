@@ -135,7 +135,7 @@ std::string largestShapeName(const std::vector<Shape*>& shapes) {
         }
     }
 
-    return largest.getName();
+    return largest->getName();
 }
 
 // ================================
